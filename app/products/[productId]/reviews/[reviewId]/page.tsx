@@ -1,3 +1,4 @@
+'use client'
 import {notFound, redirect} from 'next/navigation';
 import { useRouter } from 'next/navigation';
 export default async function Review({params}:

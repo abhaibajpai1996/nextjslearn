@@ -1,5 +1,12 @@
-export default function About(){
-    return <h1>About Page</h1>
+let shouldError = true;
+
+export default function About() {
+//   if (shouldError) {
+//     shouldError = false;
+//     throw new Error("Temporary error!");
+//   }
+
+  return <h1>About Page Loaded Successfully ✅</h1>;
 }
 
 export const metadata = {
